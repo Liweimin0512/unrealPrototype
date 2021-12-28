@@ -1,8 +1,15 @@
 # unrealPrototype
 
 ## 介绍
+
 利用Unreal引擎开发的游戏原型集合
 the array of game prototype by unreal game editor 
+
+## 什么是游戏原型？
+
+简单来说游戏原型就是游戏的粗胚，是为了验证某个游戏玩法的存在，特点就是快速开发、临时素材。是游戏开发人员用来快速试错的项目
+
+当然这个项目制作各种游戏原型的另一个目的就是学习unreal开发的知识点
 
 ## 分支策略
 
@@ -23,18 +30,9 @@ the array of game prototype by unreal game editor
 
 ## prototype简介
 
-### missionDemolition
+更多原型介绍，详见设计文档：
 
-仿《愤怒的小鸟》的，核心机制基于物理模拟的休闲游戏，目前仍需要完善。
-
-后续工作：
-
-- [ ] 保存玩家每关的最佳分数
-- [ ] 创建更多的可破坏组件
-- [ ] 显示多条轨迹，而不只是显示最近一条
-- [ ] 绘制弹弓的橡皮筋
-- [ ] 添加更多背景元素，并实现视差滚动
-- [ ] 其他，你可以任意发挥！
+- [missionDemolition 《爆破任务》](Docs\missionDemolition.md)
 
 ## 美术素材声明
 
@@ -51,3 +49,9 @@ the array of game prototype by unreal game editor
 4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
 5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
 6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+
+## 联系方式
+
+unreal开发交流群：872537977
+
+游戏设计交流群：555453850
