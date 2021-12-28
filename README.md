@@ -30,18 +30,9 @@ the array of game prototype by unreal game editor
 
 ## prototype简介
 
-### missionDemolition
+更多原型介绍，详见设计文档：
 
-仿《愤怒的小鸟》的，核心机制基于物理模拟的休闲游戏，目前仍需要完善。
-
-后续工作：
-
-- [ ] 保存玩家每关的最佳分数
-- [ ] 创建更多的可破坏组件
-- [ ] 显示多条轨迹，而不只是显示最近一条
-- [ ] 绘制弹弓的橡皮筋
-- [ ] 添加更多背景元素，并实现视差滚动
-- [ ] 其他，你可以任意发挥！
+- [missionDemolition 《爆破任务》](Docs\missionDemolition.md)
 
 ## 美术素材声明
 
