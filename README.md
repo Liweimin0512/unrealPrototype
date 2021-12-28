@@ -8,6 +8,7 @@ the array of game prototype by unreal game editor
 ## 什么是游戏原型？
 
 简单来说游戏原型就是游戏的粗胚，是为了验证某个游戏玩法的存在，特点就是快速开发、临时素材。是游戏开发人员用来快速试错的项目
+
 当然这个项目制作各种游戏原型的另一个目的就是学习unreal开发的知识点
 
 ## 分支策略
@@ -57,3 +58,9 @@ the array of game prototype by unreal game editor
 4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
 5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
 6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+
+## 联系方式
+
+unreal开发交流群：872537977
+
+游戏设计交流群：555453850
