@@ -32,7 +32,7 @@ the array of game prototype by unreal game editor
 
 更多原型介绍，详见设计文档：
 
-- [missionDemolition 《爆破任务》](Docs\missionDemolition.md)
+- [missionDemolition 《爆破任务》](Docs/missionDemolition.md)
 
 ## 美术素材声明
 
