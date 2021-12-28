@@ -1,8 +1,14 @@
 # unrealPrototype
 
 ## 介绍
+
 利用Unreal引擎开发的游戏原型集合
 the array of game prototype by unreal game editor 
+
+## 什么是游戏原型？
+
+简单来说游戏原型就是游戏的粗胚，是为了验证某个游戏玩法的存在，特点就是快速开发、临时素材。是游戏开发人员用来快速试错的项目
+当然这个项目制作各种游戏原型的另一个目的就是学习unreal开发的知识点
 
 ## 分支策略
 
