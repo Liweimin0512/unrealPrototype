@@ -48,6 +48,7 @@ bool AQWClient::SocketSend(FString message)
 	}
 }
 
+// 受消息
 bool AQWClient::SocketReceive()
 {
 	m_RecvThread = FRunnableThread::Create(new FReceiveThread(Host), TEXT("RecvThread"));
