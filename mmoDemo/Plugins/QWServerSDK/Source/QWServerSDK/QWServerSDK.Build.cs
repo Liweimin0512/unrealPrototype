@@ -39,7 +39,7 @@ public class QWServerSDK : ModuleRules
 				"Slate",
 				"SlateCore",
 				"Sockets", 
-				"Networking"
+				"Networking",
 				// ... add private dependencies that you statically link with here ...	
 			}
 			);
@@ -51,5 +51,6 @@ public class QWServerSDK : ModuleRules
 				// ... add any modules that your module loads dynamically here ...
 			}
 			);
+		
 	}
 }
