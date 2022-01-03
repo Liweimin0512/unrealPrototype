@@ -16,14 +16,14 @@ struct QWSERVERSDK_API FMessage
 
 	int32 DataLen; //消息的长度
 	int32 ID;      //消息的ID
-	TArray<BYTE> Data; //消息的内容
+	uint8* Data; //消息的内容
 
 	FMessage()
 	: DataLen(uint32(0)),ID(0){}
 	
 	//NewMsgPackage 创建一个Message消息包
-	FMessage(int32 id , TArray<BYTE> data)
-		: DataLen(uint32(data.Num())),ID(id),Data(data){}
+	FMessage(int32 id , uint8* data)
+		: DataLen(strlen(reinterpret_cast<char*>(data))),ID(id),Data(data){}
 	
 	//GetDataLen 获取消息数据段长度
 	int32 GetDataLen() {
@@ -36,7 +36,7 @@ struct QWSERVERSDK_API FMessage
 	}
 
 	//GetData 获取消息内容
-	TArray<BYTE> GetData() {
+	uint8* GetData() {
 		return Data;
 	}
 
@@ -51,7 +51,7 @@ struct QWSERVERSDK_API FMessage
 	}
 
 	//SetData 设计消息内容
-	void SetData(TArray<BYTE> data) {
+	void SetData(uint8* data) {
 		Data = data;
 	}
 };
